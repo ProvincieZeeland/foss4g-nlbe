@@ -1,0 +1,36 @@
+services:
+
+   viewer:
+     image: wkosten/leia-viewer-foss4g-nlbe
+     container_name: leia-viewer
+     security_opt:
+       - no-new-privileges:true
+     restart: always
+     ports:
+       - 5000:5000
+     volumes:
+       - ./data/config/acc/foss4g.json:/app/foss4g.json
+     mem_limit: 134217728
+     logging:
+       driver: "json-file"
+       options:
+         max-file: 5
+         max-size: 15m
+
+
+   config:
+     image: wkosten/leia-config-foss4g-nlbe
+     container_name: leia-config
+     security_opt:
+       - no-new-privileges:true
+     restart: always
+     ports:
+       - 3000:3000
+     volumes:
+       - ./data/config/:/app/public/
+     mem_limit: 134217728
+     logging:
+       driver: "json-file"
+       options:
+         max-file: 5
+         max-size: 15m
