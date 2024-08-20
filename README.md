@@ -25,6 +25,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc```
 - Kopieer het bestand foss4g.json in data/config/acc (of Windows: data\config\acc)
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```
+- Mocht de compose de containers niet kunnen downloaden: ```docker pull wkosten/leia-viewer-foss4g-nlbe``` en ```docker pull ``` 
 
 ### Github repo's
 https://github.com/ProvincieZeeland/viewer-config-server
