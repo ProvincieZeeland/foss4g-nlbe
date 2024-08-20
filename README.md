@@ -23,7 +23,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 - Gebruik het git clone commando (of de bovengenoemde zip file) om de bestanden van deze repository te installeren op je lokale werkstation (```git clone git@github.com:ProvincieZeeland/foss4g-nlbe.git .```).
 - Mocht clonen via ssh niet werken dan kan het ook via https: ```https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc```
-- Kopieer het bestand foss4g.json in /data/config/acc.
+- Kopieer het bestand foss4g.json in data/config/acc (of Windows: data\config\acc)
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```
 
 ### Github repo's
