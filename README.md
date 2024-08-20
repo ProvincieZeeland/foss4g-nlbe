@@ -34,6 +34,16 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 ![image](https://github.com/user-attachments/assets/240d8aee-3ef9-485f-b394-c40f02805abe)
  
 - Om de containers te stoppen kun je ```docker compose down``` in typen.
+
+
+### Zelf wijzigingen maken
+- Open in je favoriete editor het bestandje data\config\acc\foss4g.json
+
+- Sla de wijzigen op en bekijk in de viewer: ```http://localhost:5000/foss4g```
+- Na iedere wijzigen moet de browser opnieuw geladen worden (bv ctrl-F5).
+
+
+
    
 ### Github repo's
 https://github.com/ProvincieZeeland/viewer-config-server
