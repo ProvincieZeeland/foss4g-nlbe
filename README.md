@@ -20,12 +20,19 @@ De Docker containers zijn gemaakt op basis van de onderstaande url's:
 Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poort 3000 en 5000 beschikbaar zijn op je werkstation (mocht je OSX gebruiken dan kan het zijn dat poort 5000 al gebruikt wordt, zie https://developer.apple.com/forums/thread/682332).
 
 ### Installatie van de viewer
+- Start je Windows command prompt met het cmd commando (of start een Linux terminal venster) en maak een werkdirectory aan waarin je alle rechten hebt.
 - Gebruik het git clone commando (of de bovengenoemde zip file) om de bestanden van deze repository te installeren op je lokale werkstation (```git clone git@github.com:ProvincieZeeland/foss4g-nlbe.git .```).
 - Mocht clonen via ssh niet werken dan kan het ook via https: ```git clone https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
+
+![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
+
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
 - Kopieer het bestand foss4g.json in data/config/acc (of Windows: data\config\acc).
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```.
-- Mocht de compose de containers niet kunnen downloaden: ```docker pull wkosten/leia-viewer-foss4g-nlbe``` en ```docker pull wkosten/leia-config-foss4g-nlbe``` waarna de compose alsnog gestart kan worden. 
+- Mocht de compose de containers niet kunnen downloaden: ```docker pull wkosten/leia-viewer-foss4g-nlbe``` en ```docker pull wkosten/leia-config-foss4g-nlbe``` waarna de compose alsnog gestart kan worden.
+
+![image](https://github.com/user-attachments/assets/240d8aee-3ef9-485f-b394-c40f02805abe)
+ 
 - Om de containers te stoppen kun je ```docker compose down``` in typen.
    
 ### Github repo's
