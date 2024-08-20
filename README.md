@@ -22,9 +22,9 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 ### Installatie van de viewer
 - Gebruik het git clone commando (of de bovengenoemde zip file) om de bestanden van deze repository te installeren op je lokale werkstation (```git clone git@github.com:ProvincieZeeland/foss4g-nlbe.git .```).
 - Mocht clonen via ssh niet werken dan kan het ook via https: ```git clone https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
-- Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc```
-- Kopieer het bestand foss4g.json in data/config/acc (of Windows: data\config\acc)
-- De docker containers kunnen nu worden gestart met ```docker compose up -d```
+- Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
+- Kopieer het bestand foss4g.json in data/config/acc (of Windows: data\config\acc).
+- De docker containers kunnen nu worden gestart met ```docker compose up -d```.
 - Mocht de compose de containers niet kunnen downloaden: ```docker pull wkosten/leia-viewer-foss4g-nlbe``` en ```docker pull wkosten/leia-config-foss4g-nlbe``` waarna de compose alsnog gestart kan worden. 
 - Om de containers te stoppen kun je ```docker compose down``` in typen.
    
