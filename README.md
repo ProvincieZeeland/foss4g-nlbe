@@ -26,7 +26,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
   ![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
-- Kopieer het bestand foss4g.json (uit de Leia github repository) naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
+- Kopieer het bestand foss4g.json naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
   ![image](https://github.com/user-attachments/assets/381b81e1-51b4-4635-9b37-f1df6b38e799)
 
 
