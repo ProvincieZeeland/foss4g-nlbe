@@ -5,10 +5,10 @@ Het project 3DToolboxNL is gericht op het beschikbaar maken van open source tool
 
 In deze workshop gebruiken we de 3DToolboxNL om 3D data zoals het GeoTop model (uit de Basisregistratie Ondergrond) en een AHN DEM te converteren naar een open standaard dat zich makkelijk laat inladen in Cesium. https://github.com/3DToolboxNL/3DToolboxNL
 
-## 3D LEIA viewer
-We gebruiken de 3D Leia viewer (Cesium) om deze data te visualiseren. Tijdens de workshop gaan de viewer ook installeren. LEIA (https://github.com/leia-project) heeft veel functionaliteit om via een gebruiksvriendelijke interface 2D en 3D data te visualiseren, bevragen, bewerken en analyseren.
+## 3D Leia viewer
+We gebruiken de 3D Leia viewer (Cesium) om deze data te visualiseren. Tijdens de workshop gaan we de viewer ook installeren. Leia (https://github.com/leia-project) heeft veel functionaliteit om via een gebruiksvriendelijke interface 2D en 3D data te visualiseren, bevragen, bewerken en analyseren.
 
-Om de installatie van LEIA eenvoudig te houden maken we gebruik van Docker, zorg dus dat dit geïnstalleerd is (https://docs.docker.com/get-docker/). Docker Desktop is prima. Een account op GitHub is ook aan te raden. Mocht je geen git client beschikbaar hebben dan kun je de workshop bestanden (deze repository) ook downloaden als zip bestand: https://github.com/ProvincieZeeland/foss4g-nlbe/archive/refs/heads/main.zip. 
+Om de installatie van Leia eenvoudig te houden maken we gebruik van Docker, zorg dus dat dit geïnstalleerd is (https://docs.docker.com/get-docker/). Docker Desktop is prima. Een account op GitHub is ook aan te raden. Mocht je geen git client beschikbaar hebben dan kun je de workshop bestanden (deze repository) ook downloaden als zip bestand: https://github.com/ProvincieZeeland/foss4g-nlbe/archive/refs/heads/main.zip. 
 
 De Docker containers zijn gemaakt op basis van de onderstaande url's:
 
@@ -27,6 +27,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
 - Kopieer het bestand foss4g.json naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
+- Kopieer de overige bestanden uit de folder foss4g-nlbe of foss4g-nlbe-main naar je werkdirectory.
   ![image](https://github.com/user-attachments/assets/381b81e1-51b4-4635-9b37-f1df6b38e799)
 
 
