@@ -40,9 +40,9 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 
 
 ### Zelf wijzigingen maken
-- Open in je favoriete editor het bestandje data\config\acc\foss4g.json
+- Open in je favoriete code editor het bestandje data\config\acc\foss4g.json
 
-- Sla de wijzigen op en bekijk in de viewer: ```http://localhost:5000/foss4g```
+- Sla de wijzigen op en bekijk in je browser de Leia viewer: ```http://localhost:5000/foss4g```
 - Na iedere wijzigen moet de browser opnieuw geladen worden (bv ctrl-F5).
 
 
