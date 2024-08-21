@@ -28,6 +28,8 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
 - Kopieer het bestand foss4g.json (uit de Leia github repository) naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
+  ![image](https://github.com/user-attachments/assets/25cf1a17-bc40-457e-a2de-c661d9dd30d1)
+
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```.
 - Gebruik je Docker Editor dan zie je de containers verschijnen in de Docker Editor.
   ![image](https://github.com/user-attachments/assets/90477302-3216-4d5a-b68e-71de40b2a07b)
