@@ -27,7 +27,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 ![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
-- Kopieer het bestand foss4g.json in data/config/acc (of Windows: data\config\acc).
+- Kopieer het bestand foss4g.json (uit de Leia github repository) naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```.
 - Mocht de compose de containers niet kunnen downloaden: ```docker pull wkosten/leia-viewer-foss4g-nlbe``` en ```docker pull wkosten/leia-config-foss4g-nlbe``` waarna de compose alsnog gestart kan worden.
 
