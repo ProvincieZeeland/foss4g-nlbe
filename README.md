@@ -23,12 +23,12 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 - Start je Windows command prompt met het cmd commando (of start een Linux terminal venster) en maak een werkdirectory aan waarin je alle rechten hebt.
 - Gebruik het git clone commando (of de bovengenoemde zip file) om de bestanden van deze repository te installeren op je lokale werkstation: ```git clone git@github.com:ProvincieZeeland/foss4g-nlbe.git .```
 - Mocht clonen via ssh niet werken dan kan het ook via https: ```git clone https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
-
-![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
+  ![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
 - Kopieer het bestand foss4g.json (uit de Leia github repository) naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
-  ![image](https://github.com/user-attachments/assets/25cf1a17-bc40-457e-a2de-c661d9dd30d1)
+  ![image](https://github.com/user-attachments/assets/381b81e1-51b4-4635-9b37-f1df6b38e799)
+
 
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```.
 - Gebruik je Docker Editor dan zie je de containers verschijnen in de Docker Editor.
