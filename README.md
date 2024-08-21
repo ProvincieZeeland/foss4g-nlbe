@@ -40,7 +40,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 
 
 ### Zelf wijzigingen maken
-- Open in je favoriete code editor het bestandje data\config\acc\foss4g.json
+- Open in je favoriete code editor het bestandje data\config\acc\foss4g.json Dit is het centrale bestand waarmee je data in de viewer kan bijladen, bookmarks kan aanmaken en alle verdere configuratie van de Leia viewer kan instellen.
 
 - Sla de wijzigen op en bekijk in je browser de Leia viewer: ```http://localhost:5000/foss4g```
 - Na iedere wijzigen moet de browser opnieuw geladen worden (bv ctrl-F5).
