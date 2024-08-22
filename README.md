@@ -5,10 +5,10 @@ Het project 3DToolboxNL is gericht op het beschikbaar maken van open source tool
 
 In deze workshop gebruiken we de 3DToolboxNL om 3D data zoals het GeoTop model (uit de Basisregistratie Ondergrond) en een AHN DEM te converteren naar een open standaard dat zich makkelijk laat inladen in Cesium. https://github.com/3DToolboxNL/3DToolboxNL
 
-## 3D LEIA viewer
-We gebruiken de 3D Leia viewer (Cesium) om deze data te visualiseren. Tijdens de workshop gaan de viewer ook installeren. LEIA (https://github.com/leia-project) heeft veel functionaliteit om via een gebruiksvriendelijke interface 2D en 3D data te visualiseren, bevragen, bewerken en analyseren.
+## 3D Leia viewer
+We gebruiken de 3D Leia viewer (Cesium) om deze data te visualiseren. Tijdens de workshop gaan we de viewer ook installeren. Leia (https://github.com/leia-project) heeft veel functionaliteit om via een gebruiksvriendelijke interface 2D en 3D data te visualiseren, bevragen, bewerken en analyseren.
 
-Om de installatie van LEIA eenvoudig te houden maken we gebruik van Docker, zorg dus dat dit geïnstalleerd is (https://docs.docker.com/get-docker/). Docker Desktop is prima. Een account op GitHub is ook aan te raden. Mocht je geen git client beschikbaar hebben dan kun je de workshop bestanden (deze repository) ook downloaden als zip bestand: https://github.com/ProvincieZeeland/foss4g-nlbe/archive/refs/heads/main.zip. 
+Om de installatie van de Leia viewer eenvoudig te houden maken we gebruik van Docker, zorg dus dat dit geïnstalleerd is (https://docs.docker.com/get-docker/). Docker Desktop is prima. Een account op GitHub is ook aan te raden. Mocht je geen git client beschikbaar hebben dan kun je de workshop bestanden (deze repository) ook downloaden als zip bestand: https://github.com/ProvincieZeeland/foss4g-nlbe/archive/refs/heads/main.zip. 
 
 De Docker containers zijn gemaakt op basis van de onderstaande url's:
 
@@ -22,7 +22,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 ### Installatie van de viewer
 - Start je Windows command prompt met het cmd commando (of start een Linux terminal venster) en maak een werkdirectory aan waarin je alle rechten hebt.
 - Gebruik het git clone commando (of de bovengenoemde zip file) om de bestanden van deze repository te installeren op je lokale werkstation: ```git clone git@github.com:ProvincieZeeland/foss4g-nlbe.git .```
-- Mocht clonen via ssh niet werken dan kan het ook via https: ```git clone https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
+- Mocht clonen via ssh niet werken (soms is er een Permision denied (publickey) melding) dan kan het ook via https: ```git clone https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
   ![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
