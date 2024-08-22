@@ -31,7 +31,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 
 
 - De docker containers kunnen nu worden gestart met ```docker compose up -d```.
-- Gebruik je Docker Editor dan zie je de containers verschijnen in de Docker Editor.
+- Gebruik je Docker Editor start die dan eerste op, anders draait Docker niet, dan zie je de containers ook verschijnen in de Docker Editor.
   ![image](https://github.com/user-attachments/assets/90477302-3216-4d5a-b68e-71de40b2a07b)
 
 - Mocht de compose de containers niet kunnen downloaden geef dan de volgende commanda's in je DOS box: ```docker pull wkosten/leia-viewer-foss4g-nlbe``` en ```docker pull wkosten/leia-config-foss4g-nlbe``` waarna de compose alsnog gestart kan worden dmv ```docker compose up -d```.
