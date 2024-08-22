@@ -23,7 +23,7 @@ Zorg dus dat je de rechten hebt om containers te downloaden / starten en dat poo
 - Start je Windows command prompt met het cmd commando (of start een Linux terminal venster) en maak een werkdirectory aan waarin je alle rechten hebt.
 - Gebruik het git clone commando (of de bovengenoemde zip file) om de bestanden van deze repository te installeren op je lokale werkstation: ```git clone git@github.com:ProvincieZeeland/foss4g-nlbe.git .```
 - Mocht clonen via ssh niet werken dan kan het ook via https: ```git clone https://github.com/ProvincieZeeland/foss4g-nlbe.git .```
-  ![image](https://github.com/user-attachments/assets/c473abfb-6d0c-4459-80b5-00aff5d710d0)
+![2024-08-21 171835](https://github.com/user-attachments/assets/a789e6a3-eee5-4315-a306-7c12dde6d368)
 
 - Maak in de directory waar de bestanden zijn opgeslagen / geplaatst een subdirectory genaamd: ```data/config/acc``` (of Windows: data\config\acc).
 - Kopieer het bestand foss4g.json naar de net aangemaakt directory data/config/acc (of Windows: data\config\acc).
